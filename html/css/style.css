@@ -1,0 +1,76 @@
+* {
+    box-sizing: 50%;
+}
+
+
+body {
+    background-image: url(file:///Users/nadiasabatelli/Desktop/coding%20boolean/html/immagini/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#contenitore-principale {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 60%;
+    padding: 10%;
+    margin: 6% auto;
+    color: white;
+    
+    
+}
+
+
+.centrale {
+    text-align: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+h2 {
+    color: lime;
+}
+
+nav {
+    background-color: lime;
+    padding: 10px;
+    }
+
+
+.box,main{
+    margin-top: 20px;
+}
+
+div > span {
+    font-weight: bold;
+}
+
+
+.arrow::after {
+    content: "\21A6";
+}
+
+.linea1::after {
+    content: "";
+    display: block;
+    border-bottom: 30px solid #ffa500;
+    width: 50%;
+    margin: 1 auto; 
+}
+
+.linea2::after {
+    content: "";
+    display: block;
+    border-bottom: 30px solid hsl(120, 100%, 50%);
+    width: 70%;
+    margin: 1 auto; 
+}
+
+.linea3::after {
+    content: "";
+    display: block;
+    border-bottom: 30px solid rgb(250, 0, 0);
+    width: 40%;
+    margin: 1 auto; 
+}
